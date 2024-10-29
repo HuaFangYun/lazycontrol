@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<style name="Maui.SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/splashscreen</item>
+</style>

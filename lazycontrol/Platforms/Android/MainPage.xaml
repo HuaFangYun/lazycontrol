@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lazycontrol.Platforms.Android.MainPage"
+             Title="MainPageA">
+    <VerticalStackLayout >
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button
+            x:Name="BTNScan"
+            Text="Scan"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"
+            />
+        <ScrollView>
+            <FlexLayout
+            
+            JustifyContent="Start"
+            AlignContent="Start"
+            Wrap="Wrap"
+            FlyoutItem.IsVisible="True"
+            BackgroundColor="red"
+            AlignItems="Center"
+            Margin="12,12"
+            VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand"
+            x:Name="BtDevice">
+
+
+            </FlexLayout>
+        </ScrollView>
+    </VerticalStackLayout>
+   
+</ContentPage>
